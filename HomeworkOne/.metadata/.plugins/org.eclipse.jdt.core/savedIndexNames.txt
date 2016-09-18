@@ -1,0 +1,1 @@
+INDEX VERSION 1.127+/Users/danielhug/Documents/Data_Structures/Text_RPG/HomeworkOne/.metadata/.plugins/org.eclipse.jdt.core

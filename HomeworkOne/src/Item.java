@@ -27,7 +27,7 @@ public class Item {
 	public void setWeight(int weight){
 		this.weight = weight;
 	}
-	//Method that 
+	//Method that prints out description of item
 	public void examine(){
 		System.out.print(name + " " + weight);
 	}
