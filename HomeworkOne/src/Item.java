@@ -3,15 +3,33 @@
 public class Item {
 	//Initialize properties
 	private String name = ""; //Name of the Item
-	//made a String array, separated weight into 3 different categories light, medium, and heavy.
-	private String[] weight = {"Light", "Medium", "Heavy"}; 
+	private int weight; 
 	
 	//Constructor
-	public Item(String name, String[] weight){
+	public Item(String name, int weight){
 		this.name = name;
 		this.weight = weight;
 		
 	}
-	
+	//Getters and Setters
+	public String getName(){
+		return this.name;
+	}
 
+	public int getWeight(){
+		return this.weight;
+	}
+	
+	public void setName(String name){
+		this.name = name;
+	}
+	
+	public void setWeight(int weight){
+		this.weight = weight;
+	}
+	//Method that 
+	public void examine(){
+		getName();
+		getWeight();
+	}
 }
