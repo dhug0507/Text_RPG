@@ -1,3 +1,4 @@
+//Created by Daniel Hug
 //Class for all weapons in RPG
 public class Weapon extends Item {
 	private int damage;

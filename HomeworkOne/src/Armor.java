@@ -1,3 +1,4 @@
+//Created by Daniel Hug
 //Class for all armor in the RPG
 public class Armor extends Item {
 	private int defense;
