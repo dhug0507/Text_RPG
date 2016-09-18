@@ -11,25 +11,24 @@ public class Item {
 		this.weight = weight;
 		
 	}
-	//Getters and Setters
+	//Method that gets name
 	public String getName(){
 		return this.name;
 	}
-
+     //Method that gets weight
 	public int getWeight(){
 		return this.weight;
 	}
-	
+	//Method that sets name
 	public void setName(String name){
 		this.name = name;
 	}
-	
+	//Method that sets weight
 	public void setWeight(int weight){
 		this.weight = weight;
 	}
 	//Method that 
 	public void examine(){
-		getName();
-		getWeight();
+		System.out.print(name + " " + weight);
 	}
 }
