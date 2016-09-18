@@ -1,14 +1,22 @@
 //Created by Daniel Hug
 //Class for all food in the RPG
 public class Food extends Item {
-	int nutrition; //How healthy the food 
-	int quantity; //How much food
+	private String[] foodType = {"Fruit", "Meat", "Bread", "Cheese"};
+	private int nutrition; //How healthy the food 
+	private int quantity; //How much food
 	
 	//Constructor for food class
-	public Food(String name, int weight, int nutrition, int quantity ){
+	public Food(String name, int weight,String[] foodType, int nutrition, int quantity ){
 		super(name, weight);
+		this.foodType = foodType;
 		this.nutrition = nutrition;
 		this.quantity = quantity;
+		
+	}
+	
+	//Method to get the type of food
+	public String[] getFoodType(){
+		return this.foodType;
 		
 	}
 	
@@ -22,6 +30,11 @@ public class Food extends Item {
 	public int getQuantity(){
 		return this.quantity;
 		
+	}
+	
+	//Method to set the food type
+	public void setFoodType(String[] foodType){
+		this.foodType = foodType;
 	}
 	
 	//Method that sets nutrition value
